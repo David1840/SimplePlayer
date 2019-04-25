@@ -3,7 +3,7 @@ project(SimplePlayer C)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES video_player.c)
+set(SOURCE_FILES pcm_player.c)
 
 
 # 这里我使用的是自己机器上安装的FFmpeg、SDL库，根据自己的安装路径替换
