@@ -68,30 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="93">
               <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/audio_player.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="115" column="30" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="30" />
-              <folding>
-                <element signature="e#962#980#0" expanded="true" />
-                <element signature="e#1068#1219#0" expanded="true" />
-                <element signature="e#1256#1268#0" expanded="true" />
-                <element signature="e#1276#1307#0" expanded="true" />
-                <element signature="e#1421#1423#0" expanded="true" />
-                <element signature="e#4721#5288#0" expanded="true" />
-                <element signature="e#6520#6789#0" expanded="true" />
-                <element signature="e#6895#6939#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +121,8 @@
       <find>win</find>
       <find>could not open codecs</find>
       <find>out_sample_fmt</find>
-      <find>cannot open this file</find>
       <find>pCodecCtx</find>
+      <find>cannot open this file</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,8 +137,8 @@
         <option value="$PROJECT_DIR$/player2.c" />
         <option value="$PROJECT_DIR$/pcm_player.c" />
         <option value="$PROJECT_DIR$/main.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/audio_player.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -168,7 +149,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="383" />
     <option name="y" value="212" />
     <option name="width" value="1300" />
@@ -263,29 +244,29 @@
       <workItem from="1555913182734" duration="9318000" />
       <workItem from="1555981790717" duration="14830000" />
       <workItem from="1556011925081" duration="1537000" />
-      <workItem from="1556161995066" duration="14190000" />
+      <workItem from="1556161995066" duration="14504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92850000" />
+    <option name="totallyTimeSpent" value="93164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="383" y="212" width="1300" height="695" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22016129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22016129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41964287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41964287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.5285714" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33984798" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3392857" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32899022" />
@@ -498,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/cygwin64/usr/local/ffmpeg/include/libavutil/samplefmt.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -543,6 +517,13 @@
             <element signature="e#6520#6789#0" expanded="true" />
             <element signature="e#6895#6939#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
