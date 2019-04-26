@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SimplePlayer.dir/pcm_player.c.o"
+  "CMakeFiles/SimplePlayer.dir/audio_player.c.o"
   "SimplePlayer.pdb"
   "SimplePlayer.exe"
   "libSimplePlayer.dll.a"

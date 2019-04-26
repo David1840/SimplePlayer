@@ -57,27 +57,27 @@ include CMakeFiles/SimplePlayer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SimplePlayer.dir/flags.make
 
-CMakeFiles/SimplePlayer.dir/pcm_player.c.o: CMakeFiles/SimplePlayer.dir/flags.make
-CMakeFiles/SimplePlayer.dir/pcm_player.c.o: ../pcm_player.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/person/SimplePlayer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SimplePlayer.dir/pcm_player.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SimplePlayer.dir/pcm_player.c.o   -c /cygdrive/d/person/SimplePlayer/pcm_player.c
+CMakeFiles/SimplePlayer.dir/audio_player.c.o: CMakeFiles/SimplePlayer.dir/flags.make
+CMakeFiles/SimplePlayer.dir/audio_player.c.o: ../audio_player.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/person/SimplePlayer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SimplePlayer.dir/audio_player.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SimplePlayer.dir/audio_player.c.o   -c /cygdrive/d/person/SimplePlayer/audio_player.c
 
-CMakeFiles/SimplePlayer.dir/pcm_player.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SimplePlayer.dir/pcm_player.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/person/SimplePlayer/pcm_player.c > CMakeFiles/SimplePlayer.dir/pcm_player.c.i
+CMakeFiles/SimplePlayer.dir/audio_player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SimplePlayer.dir/audio_player.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/person/SimplePlayer/audio_player.c > CMakeFiles/SimplePlayer.dir/audio_player.c.i
 
-CMakeFiles/SimplePlayer.dir/pcm_player.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SimplePlayer.dir/pcm_player.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/person/SimplePlayer/pcm_player.c -o CMakeFiles/SimplePlayer.dir/pcm_player.c.s
+CMakeFiles/SimplePlayer.dir/audio_player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SimplePlayer.dir/audio_player.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/person/SimplePlayer/audio_player.c -o CMakeFiles/SimplePlayer.dir/audio_player.c.s
 
 # Object files for target SimplePlayer
 SimplePlayer_OBJECTS = \
-"CMakeFiles/SimplePlayer.dir/pcm_player.c.o"
+"CMakeFiles/SimplePlayer.dir/audio_player.c.o"
 
 # External object files for target SimplePlayer
 SimplePlayer_EXTERNAL_OBJECTS =
 
-SimplePlayer.exe: CMakeFiles/SimplePlayer.dir/pcm_player.c.o
+SimplePlayer.exe: CMakeFiles/SimplePlayer.dir/audio_player.c.o
 SimplePlayer.exe: CMakeFiles/SimplePlayer.dir/build.make
 SimplePlayer.exe: CMakeFiles/SimplePlayer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/person/SimplePlayer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable SimplePlayer.exe"

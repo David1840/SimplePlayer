@@ -30,8 +30,7 @@ CMakeFiles/SimplePlayer.dir/audio_player.c.o
  C:/cygwin64/usr/local/ffmpeg/include/libavutil/version.h
  C:/cygwin64/usr/local/ffmpeg/include/libswresample/swresample.h
  C:/cygwin64/usr/local/ffmpeg/include/libswresample/version.h
-CMakeFiles/SimplePlayer.dir/pcm_player.c.o
- /cygdrive/d/person/SimplePlayer/pcm_player.c
+ C:/cygwin64/usr/local/ffmpeg/include/libswscale/swscale.h
  C:/cygwin64/usr/local/include/SDL2/SDL.h
  C:/cygwin64/usr/local/include/SDL2/SDL_assert.h
  C:/cygwin64/usr/local/include/SDL2/SDL_atomic.h

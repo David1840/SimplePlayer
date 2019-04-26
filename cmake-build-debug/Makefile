@@ -123,32 +123,32 @@ SimplePlayer/fast:
 	$(MAKE) -f CMakeFiles/SimplePlayer.dir/build.make CMakeFiles/SimplePlayer.dir/build
 .PHONY : SimplePlayer/fast
 
-pcm_player.o: pcm_player.c.o
+audio_player.o: audio_player.c.o
 
-.PHONY : pcm_player.o
+.PHONY : audio_player.o
 
 # target to build an object file
-pcm_player.c.o:
-	$(MAKE) -f CMakeFiles/SimplePlayer.dir/build.make CMakeFiles/SimplePlayer.dir/pcm_player.c.o
-.PHONY : pcm_player.c.o
+audio_player.c.o:
+	$(MAKE) -f CMakeFiles/SimplePlayer.dir/build.make CMakeFiles/SimplePlayer.dir/audio_player.c.o
+.PHONY : audio_player.c.o
 
-pcm_player.i: pcm_player.c.i
+audio_player.i: audio_player.c.i
 
-.PHONY : pcm_player.i
+.PHONY : audio_player.i
 
 # target to preprocess a source file
-pcm_player.c.i:
-	$(MAKE) -f CMakeFiles/SimplePlayer.dir/build.make CMakeFiles/SimplePlayer.dir/pcm_player.c.i
-.PHONY : pcm_player.c.i
+audio_player.c.i:
+	$(MAKE) -f CMakeFiles/SimplePlayer.dir/build.make CMakeFiles/SimplePlayer.dir/audio_player.c.i
+.PHONY : audio_player.c.i
 
-pcm_player.s: pcm_player.c.s
+audio_player.s: audio_player.c.s
 
-.PHONY : pcm_player.s
+.PHONY : audio_player.s
 
 # target to generate assembly for a file
-pcm_player.c.s:
-	$(MAKE) -f CMakeFiles/SimplePlayer.dir/build.make CMakeFiles/SimplePlayer.dir/pcm_player.c.s
-.PHONY : pcm_player.c.s
+audio_player.c.s:
+	$(MAKE) -f CMakeFiles/SimplePlayer.dir/build.make CMakeFiles/SimplePlayer.dir/audio_player.c.s
+.PHONY : audio_player.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... SimplePlayer"
 	@echo "... edit_cache"
-	@echo "... pcm_player.o"
-	@echo "... pcm_player.i"
-	@echo "... pcm_player.s"
+	@echo "... audio_player.o"
+	@echo "... audio_player.i"
+	@echo "... audio_player.s"
 .PHONY : help
 
 

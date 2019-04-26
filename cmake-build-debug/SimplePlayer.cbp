@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/d/person/SimplePlayer/pcm_player.c">
+		<Unit filename="/cygdrive/d/person/SimplePlayer/audio_player.c">
 			<Option target="SimplePlayer"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/person/SimplePlayer/CMakeLists.txt">
