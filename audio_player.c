@@ -20,7 +20,10 @@ static Uint8 *audio_pos;
 
 //音频设备需要更多数据的时候会调用该回调函数
 void read_audio_data(void *udata, Uint8 *stream, int len) {
-
+    fprintf(stderr, "stream addr:%p, audio_len:%d, len:%d\n",
+            stream,
+            audio_len,
+            len);
     //首先使用SDL_memset()将stream中的数据设置为0
     SDL_memset(stream, 0, len);
     if (audio_len == 0)
@@ -33,7 +36,7 @@ void read_audio_data(void *udata, Uint8 *stream, int len) {
 }
 
 int WinMain(int argc, char *argv[]) {
-    char *file = "C:\\Users\\lenovo\\Desktop\\1080p.mov";
+    char *file = "C:\\Users\\lenovo\\Desktop\\IMG_5950.mp4";
 
     AVFormatContext *pFormatCtx = NULL; //for opening multi-media file
 

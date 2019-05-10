@@ -6,20 +6,22 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/person/SimplePlayer/audio_player.c
+/cygdrive/d/person/SimplePlayer/SimplePlayer.c
 stdio.h
 -
-SDL_types.h
+assert.h
+-
+math.h
 -
 SDL.h
-/cygdrive/d/person/SimplePlayer/SDL.h
-libswresample/swresample.h
-/cygdrive/d/person/SimplePlayer/libswresample/swresample.h
+-
 libavcodec/avcodec.h
 -
 libavformat/avformat.h
 -
 libswscale/swscale.h
+-
+libswresample/swresample.h
 -
 
 C:/cygwin64/usr/local/ffmpeg/include/libavcodec/avcodec.h
@@ -865,10 +867,6 @@ begin_code.h
 C:/cygwin64/usr/local/include/SDL2/begin_code.h
 close_code.h
 C:/cygwin64/usr/local/include/SDL2/close_code.h
-
-C:/cygwin64/usr/local/include/SDL2/SDL_types.h
-SDL_stdinc.h
-C:/cygwin64/usr/local/include/SDL2/SDL_stdinc.h
 
 C:/cygwin64/usr/local/include/SDL2/SDL_version.h
 SDL_stdinc.h

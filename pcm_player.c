@@ -44,7 +44,7 @@ int WinMain(int argc, char *argv[]) {
         return -1;
     }
 
-    FILE *fp = fopen(8, "rb+");
+    FILE *fp = fopen("C:\\Users\\lenovo\\Desktop\\testout1.pcm", "rb+");
     if (fp == NULL) {
         printf("cannot open this file\n");
         return -1;

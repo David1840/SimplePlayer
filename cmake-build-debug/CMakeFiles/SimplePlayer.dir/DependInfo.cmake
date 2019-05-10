@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/d/person/SimplePlayer/audio_player.c" "/cygdrive/d/person/SimplePlayer/cmake-build-debug/CMakeFiles/SimplePlayer.dir/audio_player.c.o"
+  "/cygdrive/d/person/SimplePlayer/SimplePlayer.c" "/cygdrive/d/person/SimplePlayer/cmake-build-debug/CMakeFiles/SimplePlayer.dir/SimplePlayer.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
