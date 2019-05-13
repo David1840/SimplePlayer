@@ -9,12 +9,6 @@
 #include <libswscale/swscale.h>
 #include <libswresample/swresample.h>
 
-// compatibility with newer API
-#if LIBAVCODEC_VERSION_INT < AV_VERSION_INT(55, 28, 1)
-#define av_frame_alloc avcodec_alloc_frame
-#define av_frame_free avcodec_free_frame
-#endif
-
 #define SDL_AUDIO_BUFFER_SIZE 1024
 #define MAX_AUDIO_FRAME_SIZE 192000 //channels(2) * data_size(2) * sample_rate(48000)
 
@@ -24,15 +18,10 @@
 #define AV_SYNC_THRESHOLD 0.01
 #define AV_NOSYNC_THRESHOLD 10.0
 
-#define SAMPLE_CORRECTION_PERCENT_MAX 10
-#define AUDIO_DIFF_AVG_NB 20
-
 #define FF_REFRESH_EVENT (SDL_USEREVENT)
 #define FF_QUIT_EVENT (SDL_USEREVENT + 1)
 
 #define VIDEO_PICTURE_QUEUE_SIZE 1
-
-#define DEFAULT_AV_SYNC_TYPE AV_SYNC_AUDIO_MASTER //AV_SYNC_VIDEO_MASTER
 
 
 typedef struct PacketQueue {

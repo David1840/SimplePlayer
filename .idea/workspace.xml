@@ -38,7 +38,7 @@
     <session id="-268556506">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="2" />
@@ -73,6 +73,7 @@
           <entry key="c" value="67" />
           <entry key="cmake" value="1" />
           <entry key="h" value="93" />
+          <entry key="md" value="1" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -81,6 +82,7 @@
           <entry key="CMakeLists.txt" value="5" />
           <entry key="Disassembly" value="1" />
           <entry key="ObjectiveC" value="160" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -88,19 +90,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/cygwin64/usr/local/ffmpeg/include/libavcodec/avcodec.h">
+        <entry file="file://$PROJECT_DIR$/SimplePlayer.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="4370" column="4" selection-start-line="4370" selection-start-column="4" selection-end-line="4370" selection-end-column="4" />
+            <state relative-caret-position="120">
+              <caret line="453" selection-start-line="453" selection-end-line="453" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SimplePlayer.c">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3309">
-              <caret line="513" lean-forward="true" selection-start-line="513" selection-end-line="513" />
+            <state relative-caret-position="378">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/cygwin64/usr/local/include/SDL2/SDL_thread.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="168" selection-start-line="168" selection-end-line="168" />
             </state>
           </provider>
         </entry>
@@ -108,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio_player.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="2289">
               <caret line="109" column="17" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="17" />
             </state>
           </provider>
@@ -117,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/cygwin64/usr/local/ffmpeg/include/libavutil/frame.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="11151">
               <caret line="531" column="8" selection-start-line="531" selection-start-column="8" selection-end-line="531" selection-end-column="8" />
             </state>
           </provider>
@@ -126,17 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/cygwin64/usr/local/ffmpeg/include/libswscale/swscale.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
+            <state relative-caret-position="3885">
               <caret line="185" column="19" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/cygwin64/usr/local/ffmpeg/include/libavformat/avformat.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41727">
-              <caret line="1987" column="2" selection-start-line="1987" selection-start-column="2" selection-end-line="1987" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -153,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video_player.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="186" column="9" lean-forward="true" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
+            <state relative-caret-position="3906">
+              <caret line="186" column="9" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -204,7 +206,6 @@
       <find>SDL_CreateTexture</find>
       <find>video_tid</find>
       <find>audio_hw_buf_size</find>
-      <find>video_current_pts</find>
       <find>AVFrame</find>
       <find>audio_diff_avg_count</find>
       <find>audio_diff_threshold</find>
@@ -217,6 +218,7 @@
       <find>duration</find>
       <find>decode_video_thread</find>
       <find>aspect_ratio</find>
+      <find>video_current_pts</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,7 +250,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="163" />
     <option name="y" value="93" />
     <option name="width" value="1300" />
@@ -262,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,15 +271,11 @@
               <item name="SimplePlayer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimplePlayer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SimplePlayer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimplePlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,12 +357,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275546000" />
+    <option name="totallyTimeSpent" value="277019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10501066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10607676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -586,13 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player4.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="552" column="22" selection-start-line="552" selection-start-column="22" selection-end-line="552" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/player4.c" />
     <entry file="file://C:/cygwin64/usr/include/math.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -614,33 +605,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5334">
-          <caret line="254" selection-start-line="254" selection-end-line="255" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/player3.c" />
     <entry file="file://C:/cygwin64/usr/local/include/SDL2/SDL_mutex.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4368">
-          <caret line="208" column="28" selection-start-line="208" selection-start-column="28" selection-end-line="208" selection-end-column="28" />
+        <state relative-caret-position="207">
+          <caret line="196" column="24" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player5.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9072">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/player5.c" />
     <entry file="file://C:/cygwin64/usr/local/include/SDL2/SDL_thread.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
+        <state relative-caret-position="217">
           <caret line="168" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
@@ -671,7 +647,7 @@
     </entry>
     <entry file="file://C:/cygwin64/usr/local/ffmpeg/include/libswscale/swscale.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
+        <state relative-caret-position="3885">
           <caret line="185" column="19" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
         </state>
       </provider>
@@ -685,22 +661,15 @@
     </entry>
     <entry file="file://C:/cygwin64/usr/local/ffmpeg/include/libavutil/frame.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="11151">
           <caret line="531" column="8" selection-start-line="531" selection-start-column="8" selection-end-line="531" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimplePlayer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="353" column="29" lean-forward="true" selection-start-line="312" selection-start-column="12" selection-end-line="353" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video_player.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="186" column="9" lean-forward="true" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
+        <state relative-caret-position="3906">
+          <caret line="186" column="9" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -716,15 +685,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/audio_player.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="2289">
           <caret line="109" column="17" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SimplePlayer.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3309">
-          <caret line="513" lean-forward="true" selection-start-line="513" selection-end-line="513" />
+        <state relative-caret-position="120">
+          <caret line="453" selection-start-line="453" selection-end-line="453" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
