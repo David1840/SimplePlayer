@@ -47,7 +47,6 @@ typedef struct PacketQueue {
 typedef struct VideoPicture {
     AVFrame *frame;
     int width, height; /* source height & width */
-    int allocated;
     double pts;
 } VideoPicture;
 
@@ -453,7 +452,6 @@ int queue_picture(VideoState *is, AVFrame *pFrame, double pts) {
         vp->width != is->video_ctx->width ||
         vp->height != is->video_ctx->height) {
 
-        vp->allocated = 0;
         vp->frame = av_frame_alloc();
         if (is->quit) {
             return -1;
