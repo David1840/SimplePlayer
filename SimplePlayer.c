@@ -7,6 +7,7 @@
 #include <libavcodec/avcodec.h>
 #include <libavformat/avformat.h>
 #include <libswscale/swscale.h>
+#include <libavutil/time.h>
 #include <libswresample/swresample.h>
 
 #define SDL_AUDIO_BUFFER_SIZE 1024
@@ -64,6 +65,7 @@ typedef struct VideoState {
     unsigned int audio_buf_size;
     unsigned int audio_buf_index;
     AVFrame audio_frame;
+
     AVPacket audio_pkt;
     uint8_t *audio_pkt_data;
     int audio_pkt_size;
@@ -737,7 +739,7 @@ int demux_thread(void *arg) {
 
 int WinMain(int argc, char *argv[]) {
 
-    char *file = "C:\\Users\\lenovo\\Desktop\\IMG_5950.mp4";
+    char *file = "C:\\Users\\lenovo\\Desktop\\MyProject\\IMG_5950.mp4";
 
     SDL_Event event;
 
